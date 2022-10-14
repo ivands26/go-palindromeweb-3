@@ -9,6 +9,6 @@ WORKDIR /app
 # copy all files to /app
 COPY . .
 
-RUN go build -o g4-api
+RUN go build -o palindrome
 
 CMD [ "./palindrome-docker" ]
